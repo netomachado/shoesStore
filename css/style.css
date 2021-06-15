@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 139, 12);
+    
+}
