@@ -158,3 +158,13 @@ footer {
     list-style: none;
     padding-right: 20px;
 }
+
+
+.contato {
+    display: flex;
+
+}
+
+form, article {
+    flex: 1;
+}
