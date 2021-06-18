@@ -20,11 +20,17 @@
     </header>
     <main>
         <section>
-            <h2>Faça parte do nosso time</h2>
+            <h2 class="contact-heading">Faça parte do nosso time</h2>
             <div class="contato">
             <form action="">
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" id="tel">
 
                 <label for="departamentos">Departamentos </label>
                 <select name="departamentos" id="departamentos">
@@ -44,6 +50,24 @@
                 <label for="opcao-freelancer">Freelancer</label>
                 </div>
 
+                <label>Qual a melhor forma para entrarmos em contato com você?</label>
+                <div class="option">
+                <input type="radio" name="email" id="email">
+                <label for="email">Email</label>
+                <input type="radio" name="ligacao" id="ligacao">
+                <label for="ligacao">Ligação</label>
+                <input type="radio" name="whatsapp" id="whatsapp">
+                <label for="whatsapp">whatsapp</label>
+                </div>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="5">Escreva sua mensagem</textarea>
+
+                <label>Curriculum</label>
+                <input type="file" name="curriculum" id="curriculum" accept=".pdf" multiple>
+                
+                <button type="submit">Enviar</button>
+                               
             </form>
             <article>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
